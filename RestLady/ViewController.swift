@@ -7,13 +7,25 @@
 //
 
 import Cocoa
+import Alamofire
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var urlTextField: NSTextField!
+    @IBOutlet var resTextView: NSTextView!
+    @IBOutlet weak var goButton: NSButton!
+    
+    @IBAction func goClicked(sender: AnyObject) {
+        var url: String = urlTextField.stringValue
+        Alamofire.request(.GET, url).responseJSON{
+            (req, res, json, error) in
+            println(json)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override var representedObject: AnyObject? {
@@ -21,6 +33,7 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
+
 
 
 }
