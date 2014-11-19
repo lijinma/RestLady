@@ -17,9 +17,9 @@ class ViewController: NSViewController {
     
     @IBAction func goClicked(sender: AnyObject) {
         var url: String = urlTextField.stringValue
-        Alamofire.request(.GET, url).responseJSON{
-            (req, res, json, error) in
-            println(json)
+        Alamofire.request(.GET, url).responseString{
+            (req, res, body, error) in
+            self.resTextView.string = body as String!
         }
     }
     

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>58A0216E-48DD-4DA7-80C7-AFC770BB46B1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RestLady</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>515B643AF9B43EA951F6BCB1358238233E13D55E</key>
+		<string>https://github.com/lijinma/RestLady.git</string>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>https://github.com/Alamofire/Alamofire.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RestLady.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>515B643AF9B43EA951F6BCB1358238233E13D55E</key>
+		<string>../..</string>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>../..Alamofire</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lijinma/RestLady.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>515B643AF9B43EA951F6BCB1358238233E13D55E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>515B643AF9B43EA951F6BCB1358238233E13D55E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RestLady</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RestLadyAlamofire</string>
+		</dict>
+	</array>
+</dict>
+</plist>
